@@ -11,7 +11,39 @@
 		041ABDB72B828C550042EAAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ABDB62B828C550042EAAA /* ContentView.swift */; };
 		041ABDB92B828C570042EAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041ABDB82B828C570042EAAA /* Assets.xcassets */; };
 		041ABDBC2B828C570042EAAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041ABDBB2B828C570042EAAA /* Preview Assets.xcassets */; };
+		041ABDC92B828C860042EAAA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041ABDC82B828C860042EAAA /* WidgetKit.framework */; };
+		041ABDCB2B828C860042EAAA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041ABDCA2B828C860042EAAA /* SwiftUI.framework */; };
+		041ABDCE2B828C860042EAAA /* eestiWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ABDCD2B828C860042EAAA /* eestiWidgetBundle.swift */; };
+		041ABDD02B828C860042EAAA /* EestiWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ABDCF2B828C860042EAAA /* EestiWidgetLiveActivity.swift */; };
+		041ABDD42B828C890042EAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041ABDD32B828C890042EAAA /* Assets.xcassets */; };
+		041ABDD82B828C890042EAAA /* eestiWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 041ABDC62B828C860042EAAA /* eestiWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		041ABDDE2B828CBA0042EAAA /* EestiAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ABDDD2B828CBA0042EAAA /* EestiAttributes.swift */; };
+		041ABDDF2B828CC70042EAAA /* EestiAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041ABDDD2B828CBA0042EAAA /* EestiAttributes.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041ABDD62B828C890042EAAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041ABDA92B828C550042EAAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 041ABDC52B828C860042EAAA;
+			remoteInfo = eestiWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		041ABDDC2B828C890042EAAA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				041ABDD82B828C890042EAAA /* eestiWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		041ABDB12B828C550042EAAA /* eesti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eesti.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +51,14 @@
 		041ABDB62B828C550042EAAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		041ABDB82B828C570042EAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041ABDBB2B828C570042EAAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		041ABDC62B828C860042EAAA /* eestiWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = eestiWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		041ABDC82B828C860042EAAA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		041ABDCA2B828C860042EAAA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		041ABDCD2B828C860042EAAA /* eestiWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eestiWidgetBundle.swift; sourceTree = "<group>"; };
+		041ABDCF2B828C860042EAAA /* EestiWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EestiWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		041ABDD32B828C890042EAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041ABDD52B828C890042EAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041ABDDD2B828CBA0042EAAA /* EestiAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EestiAttributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +69,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		041ABDC32B828C860042EAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041ABDCB2B828C860042EAAA /* SwiftUI.framework in Frameworks */,
+				041ABDC92B828C860042EAAA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				041ABDB32B828C550042EAAA /* eesti */,
+				041ABDCC2B828C860042EAAA /* eestiWidget */,
+				041ABDC72B828C860042EAAA /* Frameworks */,
 				041ABDB22B828C550042EAAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				041ABDB12B828C550042EAAA /* eesti.app */,
+				041ABDC62B828C860042EAAA /* eestiWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +107,7 @@
 				041ABDB62B828C550042EAAA /* ContentView.swift */,
 				041ABDB82B828C570042EAAA /* Assets.xcassets */,
 				041ABDBA2B828C570042EAAA /* Preview Content */,
+				041ABDDD2B828CBA0042EAAA /* EestiAttributes.swift */,
 			);
 			path = eesti;
 			sourceTree = "<group>";
@@ -67,6 +120,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		041ABDC72B828C860042EAAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041ABDC82B828C860042EAAA /* WidgetKit.framework */,
+				041ABDCA2B828C860042EAAA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041ABDCC2B828C860042EAAA /* eestiWidget */ = {
+			isa = PBXGroup;
+			children = (
+				041ABDCD2B828C860042EAAA /* eestiWidgetBundle.swift */,
+				041ABDCF2B828C860042EAAA /* EestiWidgetLiveActivity.swift */,
+				041ABDD32B828C890042EAAA /* Assets.xcassets */,
+				041ABDD52B828C890042EAAA /* Info.plist */,
+			);
+			path = eestiWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +150,34 @@
 				041ABDAD2B828C550042EAAA /* Sources */,
 				041ABDAE2B828C550042EAAA /* Frameworks */,
 				041ABDAF2B828C550042EAAA /* Resources */,
+				041ABDDC2B828C890042EAAA /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				041ABDD72B828C890042EAAA /* PBXTargetDependency */,
 			);
 			name = eesti;
 			productName = eesti;
 			productReference = 041ABDB12B828C550042EAAA /* eesti.app */;
 			productType = "com.apple.product-type.application";
+		};
+		041ABDC52B828C860042EAAA /* eestiWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041ABDD92B828C890042EAAA /* Build configuration list for PBXNativeTarget "eestiWidgetExtension" */;
+			buildPhases = (
+				041ABDC22B828C860042EAAA /* Sources */,
+				041ABDC32B828C860042EAAA /* Frameworks */,
+				041ABDC42B828C860042EAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eestiWidgetExtension;
+			productName = eestiWidgetExtension;
+			productReference = 041ABDC62B828C860042EAAA /* eestiWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +190,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					041ABDB02B828C550042EAAA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					041ABDC52B828C860042EAAA = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,6 +211,7 @@
 			projectRoot = "";
 			targets = (
 				041ABDB02B828C550042EAAA /* eesti */,
+				041ABDC52B828C860042EAAA /* eestiWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +226,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		041ABDC42B828C860042EAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041ABDD42B828C890042EAAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +242,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				041ABDB72B828C550042EAAA /* ContentView.swift in Sources */,
+				041ABDDE2B828CBA0042EAAA /* EestiAttributes.swift in Sources */,
 				041ABDB52B828C550042EAAA /* eestiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		041ABDC22B828C860042EAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041ABDCE2B828C860042EAAA /* eestiWidgetBundle.swift in Sources */,
+				041ABDDF2B828CC70042EAAA /* EestiAttributes.swift in Sources */,
+				041ABDD02B828C860042EAAA /* EestiWidgetLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		041ABDD72B828C890042EAAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 041ABDC52B828C860042EAAA /* eestiWidgetExtension */;
+			targetProxy = 041ABDD62B828C890042EAAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		041ABDBD2B828C570042EAAA /* Debug */ = {
@@ -267,6 +390,7 @@
 		041ABDC02B828C570042EAAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -275,6 +399,7 @@
 				DEVELOPMENT_TEAM = BT2TPGG8FS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,6 +421,7 @@
 		041ABDC12B828C570042EAAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +430,7 @@
 				DEVELOPMENT_TEAM = BT2TPGG8FS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +443,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tahatesser.eesti;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		041ABDDA2B828C890042EAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT2TPGG8FS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eestiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = eestiWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahatesser.eesti.eestiWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041ABDDB2B828C890042EAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BT2TPGG8FS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = eestiWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = eestiWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tahatesser.eesti.eestiWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +520,15 @@
 			buildConfigurations = (
 				041ABDC02B828C570042EAAA /* Debug */,
 				041ABDC12B828C570042EAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041ABDD92B828C890042EAAA /* Build configuration list for PBXNativeTarget "eestiWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041ABDDA2B828C890042EAAA /* Debug */,
+				041ABDDB2B828C890042EAAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
